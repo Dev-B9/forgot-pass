@@ -170,7 +170,7 @@ body{
     }
     .content{
         display: flex;
-        margin-top: 5rem;
+        margin-top: 4rem;
         /* flex-direction: column; */
         /* justify-content: center; */
         align-content: center;
@@ -184,7 +184,7 @@ body{
     }
 
     .heading p{
-        font-size: 1.2rem ;
+        font-size: 1rem ;
     }
 
     .heading h1{
