@@ -147,6 +147,9 @@ body{
 
 @media (max-width: 680px){
 
+    .content{
+        width: 80%;
+    }
     .card{
         width: 100%;
     }
@@ -159,7 +162,7 @@ body{
     }
 
     .heading h1{
-        font-size: 0.9rem;
+        /* font-size: 0.9rem; */
     }
 
 }
