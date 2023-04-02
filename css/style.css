@@ -158,7 +158,16 @@ body{
         align-items: center;
     }
 
+    .img{
+        
+        position: relative;
+        left: 30px;
+    }
 
+    .content img{
+        width: auto;
+        height: 160px;
+    }
     .content{
         display: flex;
         margin-top: 5rem;
@@ -175,7 +184,11 @@ body{
     }
 
     .heading p{
-        font-size: 0.9rem ;
+        font-size: 1.2rem ;
+    }
+
+    .heading h1{
+        font-size: 1.4rem;
     }
 
 }
