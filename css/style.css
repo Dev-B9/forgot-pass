@@ -150,7 +150,20 @@ body{
     body{
         overflow: hidden;
     }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
     .content{
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        align-content: center;
         width: 80%;
     }
     .card{
@@ -161,11 +174,7 @@ body{
     }
 
     .heading p{
-        font-size: 0.7rem ;
-    }
-
-    .heading h1{
-        /* font-size: 0.9rem; */
+        font-size: 0.9rem ;
     }
 
 }
