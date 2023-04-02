@@ -22,7 +22,7 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     width: 60%;
     height: 100%;
@@ -33,15 +33,7 @@ body{
 
 .content{
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* margin-top: 0.5rem; */
-    padding: 1rem;
-    /* gap: 1rem; */
-    /* background: red; */
-    
-    
+    padding: 1rem;  
 }
 .content img{
     width: 170px;
@@ -151,6 +143,12 @@ body{
         overflow: hidden;
     }
 
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .container{
         display: flex;
         flex-direction: column;
